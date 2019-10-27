@@ -1,0 +1,342 @@
+
+body{
+	box-sizing: border-box;
+	max-width: 1100px;
+	margin: auto;
+	outline: none;
+	text-align: center;
+	background-image: url(../img/fond.png);
+	color:#767676;
+
+
+    font-family: 'Bree Serif', serif;
+
+
+}
+/*VISUALISATION DU BLOC*/
+/**{
+	border: 1px solid red;*/
+}
+/*L'ENTETE DU PAGE*/
+header{
+	text-align: center;
+	color:#767676;
+}
+header h2{
+	transition: transform .2s,color .2s ;
+	font-size: 2.5rem;
+	margin: 0;
+		color:#767676;
+
+}
+header h2:hover{
+	transform: color (red);
+}
+header img{
+	margin-top: 5rem;
+	width: 15%;
+	
+	size: 2.5rem;
+	transition: transform .2s;
+	
+}
+header img:hover {
+	transform: scale(2);
+}
+header nav ul {
+	padding-left :0;
+	list-style-type: none;
+}
+header nav ul li a{
+	padding:1.5rem;
+clear: both;
+	display: block;
+	text-decoration: none;
+	color: #767676;
+	font-size: 1.25rem;
+
+}
+nav ul li a i{
+	display: block;
+	padding:0.7em 0;
+}
+/*MAIN*/
+hr{
+	border:1px solid #C0C0C0;
+}
+main .présentation {
+	color: white;
+background-image: url("../img/bg_header.png");
+padding: 10%;
+background-size: cover;
+padding-bottom: 10rem;
+
+
+}
+
+.présentation p {
+	line-height: 2rem;
+	font-size: 1.125rem;
+	margin-bottom:4rem;
+
+
+}
+.présentation h1{
+	font-size: 2.5rem;
+	line-height: 5rem;
+
+}
+.présentation a{
+	background-color: #FF0066;
+	text-decoration: none;
+	border-radius:8px; 
+	padding: 2%;
+	
+	color: white;
+
+}
+.Réalisations{
+		color:#767676;
+		padding:15% 10%;
+
+}
+.Réalisations h2 {
+	color:#FF0066;
+	margin:3rem;
+
+}
+.Réalisations ul {
+	list-style-type: none;
+	padding-left: 0;
+
+
+}
+.Réalisations h3{
+	font-size:1.875rem;
+	font-weight: normal;
+	margin-top: 0;
+	color: 
+}
+
+.Réalisations article li{
+	margin:4rem;
+	
+
+}
+.Réalisations article p{
+
+	margin:0;
+
+}
+.Réalisations div {
+	margin-bottom: 8rem;
+}
+.Réalisations article p{
+	line-height: 2rem;
+	font-size: 1.125rem;
+	margin-bottom:4rem;
+	
+
+	
+}
+
+h5{
+	margin-bottom: 0;
+}
+
+.Réalisations i{
+	font-size:1.5rem;
+	background-color:rgba( 218,223,225,0.5 );
+	padding: 25px;
+	border:2px solid #A4A4A4;
+
+	border-radius: 50%;
+	background-size: 20px;
+}
+
+.Réalisations h4{
+	color: #FF0066;
+}
+.exemples{
+	text-align: left;
+
+}
+.exemples h2 {
+	text-align: center;
+	font-size:  2.18rem;
+
+}
+.exemples div{
+	margin-bottom: 2rem;
+}
+.exemples div  p {
+	margin-bottom: 1rem;
+}
+.exemples h3{
+	
+	color:#FF0066;
+}
+
+.exemples img{
+	width: 100%;
+	 margin-bottom:3rem 0;
+}
+
+.exemples i{
+	padding: 0;
+
+}	
+.exemples a{
+	text-decoration: none;
+	color:#FF0066;
+
+	font-size: 1.25rem;
+
+
+}
+.exemples a i{
+	margin-left: 0.5rem;
+}
+
+ form div {
+	display:block;
+	
+	height: 3rem;
+	color:#585858;
+	font-size: 1rem;
+
+
+}
+form div input , textarea{
+	padding-left: 3.5rem;
+	width:80%;
+	height: 3rem;
+	border:2px solid #A4A4A4;
+	margin: 2px;
+	border-radius: 2rem;
+}
+
+form div input[type="text"]{
+	background-image: url(../img/bg_form_name.svg);
+	background-repeat: no-repeat;
+}
+
+form div input[type="mail"]{
+	background-image: url(../img/bg_form_mail.svg);
+	background-repeat: no-repeat;
+}
+form div textarea{
+	background-image: url(../img/bg_form_message.svg);
+	background-repeat: no-repeat;
+
+
+
+}
+form input[name="envoi"]{
+	margin-top: 4rem;
+	background-color: #FF0066;
+	color:white;
+	padding: 1rem 2rem;
+	border:none;
+
+}
+form input[name="efface"]{
+	background-color: #A4A4A4;
+	color:white;
+	padding: 1rem 2rem;
+	border:none;
+
+}
+footer a{
+	color: #FF0066;
+}
+
+
+/* LICENCE */
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 50px;
+
+}
+
+
+
+@media screen and (min-width:640px)
+{
+
+header nav ul li  {
+
+display:inline-block;
+margin: 0;
+padding: 0;
+
+
+}
+
+header nav ul li  a i{
+
+display:inline-block;
+margin: 0;
+padding: 0;
+
+}
+.Réalisations div .img1 , .Réalisations div .img3{
+	float: right;
+	width: 50%;
+
+}
+.Réalisations div .img2 , .Réalisations div .img4{
+	float: left;
+	width: 50%;
+
+}
+
+
+form div input {
+	display: inline-block;
+	width:43%;
+	margin-right:5px;
+
+	
+}
+form div textarea{
+	width: 100%;
+}
+@media screen and (min-width:1024px)
+{
+	header{
+		overflow: auto;
+	}
+header img{
+	margin-top:0;
+	display:inline-block;
+	text-align: left;
+}
+header h2 {
+
+margin-top: 0;
+	text-align: left;
+	display:inline-block;
+}
+header nav{
+float: right;
+}
+header nav ul li a {
+	padding-bottom: 0;
+}
+.Réalisations{
+	padding:0;
+}
+.Réalisations article li {
+float:right;
+margin: auto;
+
+
+	width:33%;
+}
+}

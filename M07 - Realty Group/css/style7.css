@@ -1,0 +1,145 @@
+
+*{
+box-sizing: border-box;
+font-family: Arial;
+}
+/*VISUALISATION DU BLOC*/
+ /**{border: 1px solid red;}*/
+
+
+	/*HEADER*/
+header img{
+	float: left;
+overflow: auto;
+}
+.textHeader{
+	color:  	#9A9899;
+	font-style: italic; 
+	font-weight: bold;
+	font-size: 1.6em;
+	text-indent: 10px;
+
+}
+ul{
+	
+	text-align: center;
+	clear: both;
+
+
+	
+	    
+
+}
+nav li{
+	display: inline-block;
+	padding: 15px;
+
+}
+header ul li a{
+
+overflow: auto;
+		color: #4EC0DB;
+		text-decoration: none;
+		font-weight: bold;
+		margin:20px;
+		
+
+
+
+		
+
+}
+hr{
+
+	color: #4EC0DB;
+	margin-top: 0px;
+	border:2px solid;
+
+}
+
+.Menu{
+margin-top: 15px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+	display: none;
+	background-color: #4EC0DB;
+
+
+}
+header ul{ 
+	text-align: center; 
+padding: 0;
+margin-bottom: 0;
+}
+nav ul li:hover {
+	background-color:#4EC0DB;
+
+}
+nav ul li a:hover
+{color: white;
+}
+nav ul li:hover .Menu{
+	display: block;
+	position:absolute;
+	left: 0;
+	right: 0;
+
+
+}
+.sousMenu{
+		text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	font-size: 1em;
+	width: 45%;
+
+
+}
+.sousMenu h2{color: rgba(255,255,255,0.7);
+
+}
+	
+.sousMenu ul li{display: block;
+	padding:5px ;
+	
+}	
+
+/*MAIN*/
+main{
+width:60% ;
+margin:auto;
+margin-top: 20px ;
+
+}
+h1{
+	color :#4EC0DB;
+}
+p{
+	text-align: justify;
+	color:  	#9A9899;
+	font-size: 1em;
+	
+	line-height: 1.5em;
+
+
+}
+	
+
+/* FOOTER */
+.licence a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.licence {
+	background-color: #4EC0DB;;
+	padding: 20px;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.licence img {
+    width: 50px;
+}

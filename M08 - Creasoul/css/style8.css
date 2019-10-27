@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+
+
+}
+body{
+	
+	max-width: 80%;
+	margin: auto;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.2rem;
+}
+header{
+	text-align: center;
+
+	background-color: #F2F2F4;
+}
+
+main{
+	overflow: auto;
+
+}
+.logo{
+width: 20%;
+height: 20%;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	background-color: #30A894;
+
+	
+}
+nav ul li {
+	display: inline-block;
+	margin: 20px 100px;
+
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+
+
+}
+section{
+	display: inline-block;
+	width: 70%;
+	padding:1%;
+
+
+
+}
+hr{
+	border: 1px solid #30A894 ;
+}
+
+section img{
+	width:100%;
+}
+
+p  {
+	text-align: left;
+
+	
+
+}
+span{
+	color: #30A894;
+}
+
+
+
+h1 {
+	text-transform: uppercase;
+	font-size: 3rem;
+	color: #30A894;
+	padding-left: 1%;
+	font-weight: normal;
+
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #30A894;
+	padding-left: 1%;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+	
+
+aside{ 	float: right;
+	vertical-align: top;
+	width:30%;
+	background-color:#B7DCB1;
+	padding: 1%;
+}
+
+
+/* FOOTER */
+.licence a {
+	color: #30A894;
+	text-decoration: underline;
+}
+
+.licence {
+
+	padding: 5%;
+
+	font-size: 1rem;
+	text-align: center;
+}
+
+.licence img {
+    width:8%;
+}
+
+@media screen and (max-width: 1024px){
+	
+	section{
+		display: block;
+		width: 100%;
+	}
+	
+	
+	aside{width: 100%;
+		display: block;
+		margin-bottom: 5%;
+	}
+		nav ul li{
+			display: block;
+			padding: 10px 0px;
+		
+		}
+
+
+}
+
+@media screen and (max-width: 640px){
+	
+	section{
+		display: block;
+		width: 100%;
+	}
+	
+	
+	aside{
+		display: none;
+		
+	}
+		nav ul li{
+			display: block;
+			padding: 10px 0px;
+		
+		}
+
+}

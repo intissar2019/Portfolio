@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+
+
+}
+body{
+	
+	margin: auto;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.2rem;
+}
+header{
+	text-align: center;
+
+	background-color: #F2F2F4;
+
+
+}
+.logo{
+width: 30%;
+height: 30%;
+margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #30A894;
+
+	padding: 5%;
+
+	
+}
+nav ul li {
+	
+	margin: 5%;
+
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+
+
+
+}
+section{
+
+
+	padding:1%;
+
+
+}
+hr{
+	border: 1px solid #30A894 ;
+}
+
+section img{
+	width:100%;
+}
+
+p  {
+	text-align: left;
+
+	
+
+}
+span{
+	color: #30A894;
+}
+
+
+
+h1 {
+	text-transform: uppercase;
+	font-size: 3rem;
+	color: #30A894;
+	padding-left: 1%;
+	font-weight: normal;
+
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #30A894;
+	padding-left: 1%;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+	
+
+aside{
+	display: none;
+	
+	background-color:#B7DCB1;
+
+}
+
+
+/* FOOTER */
+.licence a {
+	color: #30A894;
+	text-decoration: underline;
+}
+
+.licence {
+	margin: 0;
+
+	padding: 10%;
+
+	font-size: 1rem;
+	text-align: center;
+}
+
+.licence img {
+    width: 15%;
+}

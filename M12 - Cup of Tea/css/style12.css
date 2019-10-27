@@ -1,0 +1,809 @@
+
+
+body{
+	box-sizing: border-box;
+	text-align: center;
+	
+	font-size: 1rem;
+	color:#696969;
+	background-color: #d9d9d9;
+
+}
+
+
+   
+
+
+
+
+header  .entete .angle{
+	display: none;
+
+}
+
+header {
+	text-align: center;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+}
+header  .entete .top {
+	background-color:#869D12;
+	padding: 1rem;
+	color:white;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+.divh h6{
+	margin:0;
+}
+header nav ul{
+	margin:0;
+}
+
+.chariot{
+	opacity: 0.5;
+
+	margin-top: 1rem;
+
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: flex-start;
+	color: white;
+	text-align: left;
+	width: 25%;
+	box-shadow: 24px -2px 83px -1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 24px -2px 83px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 24px -2px 83px -1px rgba(0,0,0,0.75);
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+
+}
+.chariot i {
+	margin-right: 3px;
+	font-size: 1rem;
+	padding: 1rem;
+	border-radius: 50%;
+	border:1px solid white;
+	
+
+}
+.chariot h6{
+	font-size: 1rem;
+
+}
+.chariot p {
+	display: none;
+	color: white;
+}
+
+header nav ul , .avis ul , .achat ul{
+	list-style-type: none;
+	padding-left: 0;
+
+
+}
+header nav ul li {
+	padding: 1.5rem;
+
+}
+
+header nav ul li a{
+	width: 80%;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	display: inline-block;
+
+
+}
+
+
+.noel h1{
+	
+	color:#96B011;
+	 font-family: 'Amaranth', sans-serif;
+	 font-size:1.5625rem
+}
+.sec2 h4{
+	font-family: 'Amaranth', sans-serif;
+
+}
+.noel{
+	display:block;
+}
+.noel img{
+	
+	width: 100%;
+}
+
+
+main{
+	max-width: 1100px;
+	margin:auto;
+}
+
+
+section img{
+	width: 100%;
+}
+section{
+margin: 2rem 2rem; 
+background-color: white;
+ }
+section h3{
+	 font-family: 'Amaranth', sans-serif;
+	color:#97AF13;
+	padding-top: 2rem;
+
+}
+h3::after
+{
+}
+
+
+ main section .thé {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: flex-start;
+	
+}
+.thé div {
+	width: 45%;
+	margin: auto;
+}
+.thé div img{
+	width: 50%;
+}
+.sec2 article h3{
+		margin-top: 0;
+	}
+
+
+.sec2  article a ,.type article a , .achat a {
+	opacity: 1;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+	
+	text-decoration: none;
+	color:white;
+	padding:  3%  5%;
+	background-color: #B8860B;
+	text-transform: uppercase;
+}
+.thé , .sec2{
+	margin-bottom: 7%;
+}
+/*effet transform*/
+.sec2  article a:hover  {
+
+
+	 opacity: 0.75;
+
+
+}
+.type article a:hover {
+	opacity: 0.75;
+}
+.achat a:hover{
+	opacity: 0.75;
+}
+/*****************fin effet  ****************/
+article{
+	padding: 2rem;
+
+}
+.sec2 article h5{
+	margin-top:0;
+	margin-bottom: 1rem;
+}
+article img{
+	width: 50%;
+	text-align: center;
+}
+
+footer ul{
+	list-style-type: none;
+	padding-left: 0;
+	
+
+}
+.menu1 ul {
+	background-color: #869D12;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: flex-start;
+	margin-bottom: 0;
+	
+	
+	
+	
+
+}
+.menu1 ul li{
+	width: 45%;
+		padding: 1rem 0;
+
+}
+.menu1 ul li a {
+			color: rgba(255,255,255,0.5);
+			text-transform: uppercase;
+
+}
+.menu1 i{
+	display: block;
+	padding: 1rem 0;
+	font-size: 2rem;
+	color: rgba(255,255,255,0.5);
+	
+
+}
+
+footer {
+	background-image:url(../img/bg.jpg);
+	background-size:cover;
+	background-position: bottom;
+	padding: 0;
+}
+.menu2 h5{
+	text-transform: uppercase;
+	color: white;
+		margin:0 ;
+		padding: 1rem;
+		font-size: 1.5rem;
+
+
+}
+.menu2 ul li a{
+	color: rgba(255,255,255,0.5);
+
+}
+
+.noel {
+	display: none;
+	} 
+	.flexslider{
+	display: none;
+}
+.chariot p {
+	display: none;
+}
+ .entete .angle{
+	display: none;
+}
+/* LICENCE */
+#licence {
+	background-color: #869D12;
+	opacity: 0.65;
+	color:white;
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+#licence img {
+    width: 40px;
+
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/*responsive **************************************************************/
+@media screen and (min-width:640px)
+{
+.thé , .sec2{
+	margin-bottom: 3%;
+	}
+.menu2 ul li{
+	padding: 0.5rem;
+
+}
+
+.divh {
+	width: 100%;
+	
+	display: flex;
+	flex-direction:row-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items:flex-start;
+	align-content: stretch;
+}
+header img{
+	text-align: left;
+	display: block;
+	
+}
+	header nav ul {
+		display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+	}
+	header  .entete .angle{
+	float: right;
+	display: inline-block;
+	width: 7%;
+	height: 7%;
+}
+
+	.chariot {
+		width: 50%;
+
+		display:inline-block;
+		text-align: right;
+		box-shadow: none;
+-webkit-box-shadow:none
+-moz-box-shadow: none
+border-top-right-radius: none;
+border-bottom-right-radius: none;
+
+	}
+		.chariot p {
+			display:inline-block;
+		}
+		.chariot h6{
+			display: inline-block;
+		}
+	
+
+	 .flexslider {
+		display: block;
+		border:0;
+	
+	}
+	.noel{
+		display: block;
+	}
+	.menu1 ul{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+}
+.menu2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+}
+.menu2 div {
+	width: 25%;
+}
+}
+/***********************desktop/************************/
+@media screen and (min-width:1024px)
+{
+	.divh {
+	width: 100%;
+	
+	display: flex;
+	flex-direction:row-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items:flex-start;
+	align-content: stretch;
+
+}
+
+	.sec2 article{
+		width:25%;
+	}
+	section .thé div {
+		width: 15%;
+	}
+
+ .thé , .sec2  {
+ 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+ }
+.sec2  article a {
+	text-decoration: none;
+	color:white;
+	padding:  1rem  2rem;
+	background-color: #B8860B;
+	text-transform: uppercase;
+}
+
+
+}
+/*CSS page ABOUT*******************************************************/
+.main-about{
+	background-color: white;
+}
+.about1 {
+	padding: 25px;
+}
+.about1 article{
+	padding: 0;
+}
+.about1 .concept{
+	padding:1rem;
+}
+.about1 article h3 {
+	 font-family: 'Amaranth', sans-serif;
+	padding-top:0;
+
+
+}
+.abou1t h3{
+	font-family: 'Amaranth', sans-serif;
+}
+.about1 img{
+	
+	width: 100%;
+	margin-right: 
+}
+.about1 p{
+	text-align: left;
+}
+.about2 {
+	background-color:  	#EAEFCF;
+	margin: 2%;
+	
+}
+.main-about  {
+	padding-bottom: 10px;
+
+}
+.about2 img{
+
+	width: 20%;
+}
+/*RESPONSIF DESIGN************************************************/
+@media screen and (min-width:640px)
+{
+	.about1 h1, .about1 h3{
+		
+		text-align: left;
+	}
+	.about1  .amélie img{
+		width: 70%;
+		float: left;
+		margin-right: 2rem;
+		
+		margin-left: 1rem;
+
+		
+	}
+	.about1  .xavier img{
+		width: 70%;
+		float: right;
+		margin-left: 2rem;
+		margin-right: 1rem;
+		
+	}
+}
+@media screen and (min-width:1024px)
+{
+	.about1 h3{
+		 
+		text-align: left;
+	}
+.about1  .amélie img , .about1 .xavier img{
+		width: 50%;
+	}
+	.about1 p{
+		padding:0;
+	}
+	.about2 {
+		display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+	}
+
+}
+/*PAGE LISTING************************************************************************/
+section .description img{
+	display: none;
+}
+section .description p, section .description h3{
+	text-align: left;
+	padding: 1% 4%;
+}
+
+.clear{
+	clear: both;
+}
+article h5{
+	font-size: 1.5rem;
+}
+section .description h3 {
+	padding-left: 0.5rem;
+}
+section:last-child{
+	margin-bottom: 4rem;
+}
+section h4{
+	font-family: 'Amaranth', sans-serif;
+font-size: 1.25rem;
+	
+}
+
+
+/*responsif design*************************************************/
+@media screen and (min-width:640px)
+{
+	section .description h3{
+		margin-left: 2rem;
+	}
+}
+@media screen and (min-width:1024px)
+{
+	section .description{
+		overflow: auto;
+	}
+section .description img{
+	display:inline-block;
+	float: left;
+	width: 20%;
+}
+section .type{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+
+
+}
+section .type article{
+	width: 25%;
+
+}
+section .type img{
+	width: 80%;
+}
+section .type{
+	margin-bottom: 2rem;
+}
+
+}
+/* PAGE PRODUCT**************************************************************/
+.main3 , .achat ul {
+display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	padding: 0 2%;
+}
+.achat img{
+	
+	width: 70%;
+
+}
+.avis ul{
+display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+	margin-bottom: 0;
+
+}
+.avis p{
+	text-align: center;
+}
+.avis ul li  i{
+	color: #FFD700;
+
+}
+.avis ul li:last-child i {
+	color: grey;
+}
+.achat ul li{
+
+
+	padding:1rem;
+}
+.achat ul li h4{
+		font-size: 2.5rem;
+}
+
+
+.avis p{
+	color:#95B10F;
+}
+.produit h2
+{
+		 font-family: 'Amaranth', sans-serif;
+	font-size:1.875rem
+}
+
+
+.achat ul li span a{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+
+	text-decoration: none;
+	color:#95B10F;
+	background-color: inherit;
+	text-transform: inherit;
+	
+}
+.achat ul li i{
+
+	color: #FF69B4;
+}
+ select {
+ 
+ 	border:1px solid grey;
+
+
+	display:inline-block;
+	width: 80%;
+	padding:0.5rem;
+	 line-height: 1.2;
+        background: white;
+
+}
+section{
+	margin: 0;
+}
+section p{
+	text-align: left;
+	padding:0 2%;
+}
+/*responsif design*********************************************************************/
+@media screen and (min-width:640px)
+{
+	.achat , .produit{
+		display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+	padding:1rem;
+	}
+	.produit .avis{
+		text-align: right;
+	}
+	.produit .desc{
+		text-align: left;
+	}
+	.achat img, .achat ul{
+			width: 45%;
+
+
+	}
+.achat ul li a{
+	text-align: right;
+	padding-left: 10%;
+	padding-right: 25%;
+}
+
+
+}
+/*effet transition*****************************************************************/
+
+
+nav a:hover {
+	padding: 1.5rem;
+	background-color: rgba(255,255,255,0.2);
+}
+
+.thé img:hover {
+	opacity: 0.5;
+
+} 
+/*nav a:visited {
+	padding: 1.5rem;
+	background-color: rgba(255,255,255,0.2);
+
+
+}*/
+
+
+
+
+
+article p{
+	text-align: center;
+}
+.thé. div p{
+	text-align: center;
+}
+.thé div p{
+	text-align: center;
+
+}
+.type h3 , .about1 h3 , .sec2 h3 , section h3 , .description h3{
+	 font-family: 'Amaranth', sans-serif;
+	 font-size: 1.5625rem;
+	
+
+
+}
+
+/*l'effet de texte dans une ligne *********************centreé********************************/
+
+.type h3 , .about1 h3 ,.sec2 h3 , section h3, .description h3 {
+	 overflow: hidden;
+
+
+}
+h3::before, h3::after {
+  background-color: #869D12;
+  opacity: 0.2;
+  content: " ";
+  width: 45%;
+  display:inline-block;
+  border:1px solid #869D12;
+ 
+ 
+  
+}
+
+h3::before {
+  
+  margin-left: -45%;
+}
+
+h3::after {
+	margin-bottom: 0.3%;
+  
+  margin-right: -45%;
+}
+
+
+/*********a gauche******************************************************/
+
+.about1 h3::after {
+	width: 62%;
+margin-bottom: 0.3%;
+	margin-left: 2%;
+	
+
+
+}
+.about1 h3::before{
+	content: none;
+}
+
+/*********encore pour la page listing****************/
+.description h3::after {
+	width: 80%;
+margin-bottom: 0.3%;
+	margin-left: 2%;
+}
+.description h3::before {
+	content: none;
+}

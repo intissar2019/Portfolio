@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover</title>
+	<style>
+		a {
+			text-decoration: none;
+			color:green;
+			background-color: yellow;
+			padding: 15px;
+
+		}
+		/* lorsque je survole sur le lien */
+		a:hover {
+			color:yellow;
+			background-color: green;
+			text-decoration: underline;
+
+		}
+		h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h1:before, h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+/*avec span**********************************************/
+.linebehind {
+position: relative;
+z-index: 1;
+}
+
+.linebehind::before {
+border-top: 2px solid #E3E0D5;
+content: "";
+margin: 0 auto;
+position: absolute;
+top: 15px;
+left: 0;
+right: 0;
+bottom: 0;
+width: 95%;
+z-index: -1;
+}
+
+.linebehind span {
+background: white;
+padding: 0 7px;
+}
+h2{
+	text-align: left;
+}
+
+	</style>
+
+</head>
+<body>
+	<h1>bonjour </h1>
+	<a href="#">lien1</a>
+	<a href="#">lien2</a>
+	<a href="#">lien3</a>
+	<h2 class="linebehind"><span>Choisissez votre thé</span></h2>
+
+
+</body>
+</html>
